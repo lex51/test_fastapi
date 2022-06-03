@@ -14,11 +14,11 @@ curl -s fastapi.localhost:8008/ping | jq
 {
   "ping": "pong!"
 }
+```
 
 run tests
 
 docker-compose exec web pytest . 
-```
 
 ## content of .env in root_dir
 ```json
