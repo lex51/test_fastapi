@@ -18,7 +18,7 @@ curl -s fastapi.localhost:8008/ping | jq
 
 run tests
 
-docker-compose exec web pytest . 
+docker-compose exec web pytest .
 
 ## content of .env in root_dir
 ```json
@@ -27,3 +27,7 @@ POSTGRES_USER=...
 POSTGRES_PASSWORD=...
 POSTGRES_DB=...
 ```
+
+
+for development
+on local machine - *pip install pre-commit* and *pre-commit install* in root dir
